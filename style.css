@@ -1,0 +1,509 @@
+/* style.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #2b2b2b;
+}
+
+/* Cover background */
+.relative {
+    position: relative;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+/* Overlay */
+.bg-black {
+    background-color: black;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+/* Content */
+.z-10 {
+    z-index: 10;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.mt-24 {
+    margin-top: 6rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+.text-6xl {
+    font-size: 5rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-teal-300 {
+    color: #4fd1c5;
+}
+
+.border-t-2 {
+    border-top-width: 2px;
+}
+
+.border-white {
+    border-color: white;
+}
+
+.w-16 {
+    width: 4rem;
+}
+
+.mt-16 {
+    margin-top: 4rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.max-w-xl {
+    max-width: 36rem;
+}
+
+/* style.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Widget styles */
+.bg-zinc-900 {
+    background-color: #2b2b2b;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 20rem;
+}
+
+.max-w-6xl {
+    max-width: 72rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-zinc-400 {
+    color: #b3b3b3;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.border-t {
+    border-top-width: 1px;
+}
+
+.border-zinc-700 {
+    border-color: #4a4a4a;
+}
+
+.w-16 {
+    width: 4rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.shadow-2xl {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.w-full {
+    width: 200%;
+}
+
+.h-full {
+    height: 200%;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.bottom-4 {
+    bottom: -15rem;
+}
+
+.left-4 {
+    left: 1rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Widget styles */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-zinc-900 {
+    background-color: #2b2b2b;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
+.bg-zinc-800 {
+    background-color: #333;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-zinc-700 {
+    border-color: #4a4a4a;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.text-zinc-300 {
+    color: #ccc;
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.focus\:ring-2:focus {
+    box-shadow: 0 0 0 2px #36f;
+}
+
+.hover\:bg-white:hover {
+    background-color: #fff;
+}
+
+.hover\:text-zinc-900:hover {
+    color: #333;
+}
+
+.transition {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+[type='submit'] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Widget styles */
+.bg-zinc-800 {
+    background-color: #2b2b2b;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.space-x-8 > * + * {
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hover\:text-zinc-400:hover {
+    color: #B3B3B3;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .gap-8 {
+        gap: 1rem;
+    }
+
+    .py-12 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .text-3xl {
+        font-size: 1.5rem;
+    }
+
+    .text-xl {
+        font-size: 1.125rem;
+    }
+
+    .text-sm {
+        font-size: 0.75rem;
+    }
+
+    .mt-8 {
+        margin-top: 1.5rem;
+    }
+
+    .h-full {
+        height: 100%;
+    }
+
+    .bottom-4 {
+        bottom: 1rem;
+    }
+}
